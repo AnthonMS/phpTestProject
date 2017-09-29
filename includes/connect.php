@@ -13,9 +13,9 @@
 
     if ($connect->connect_error)
     {
-        die("Connection failed... " + $connect->connect_error);
+        //die("Connection failed... " + $connect->connect_error);
     }
-    echo "Connection succesful";
+    //echo "Connection succesful";
     ?>
 
 </center>
