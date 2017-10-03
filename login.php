@@ -35,7 +35,9 @@
             // Username and password is correct
             session_start();
             $_SESSION['username'] = $username;
-            echo "Logged in succesfully!!!";
+            echo "Logged in succesfully." . "<br />";
+            echo "Welcome " . $_SESSION['username'];
+            header("Location: indexLoggedIn.php");
         }
         else {
             echo "Login error: Incorrect Username or Password";

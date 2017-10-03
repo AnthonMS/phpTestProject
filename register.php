@@ -82,7 +82,7 @@
                 else
                 {
                     //echo "Error in registering user...";
-                    echo "ERROR: " . $sql . "<br />" - $connect->error;
+                    echo "ERROR: " . $sql . "<br />" . $connect->error;
                 }
             }
 
