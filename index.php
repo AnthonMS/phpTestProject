@@ -34,6 +34,7 @@
             $pass = checkInput($_POST["password"]);
         }
     }
+    // checker chekcer
 
     if (!empty($name) && !empty($pass))
     {

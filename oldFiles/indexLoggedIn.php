@@ -4,7 +4,7 @@
 <center>
 
     <?php
-    include ("includes/connect.php");
+    include("includes/connect.php");
 
 
     echo "Welcome " . $_SESSION['username'];

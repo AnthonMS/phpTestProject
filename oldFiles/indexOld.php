@@ -4,7 +4,7 @@
 <center>
 
     <?php
-    include ("includes/connect.php");
+    include("includes/connect.php");
     ?>
 
     <h2><u>Login or Register</u></h2>
@@ -26,7 +26,7 @@
         </table>
     </form>
 
-    <form action="register.php" method="post">
+    <form action="../register.php" method="post">
         <table border="0">
             <tr>
                 <td>Username: </td>
