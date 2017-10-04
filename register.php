@@ -139,7 +139,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" class="registerBtn" name="register" value="register"> <a href="index.php">Or login</a></td>
+                <td><input type="submit" id="registerBtn" name="register" value="register"> <a href="index.php">Or login</a></td>
                 <td> </td>
             </tr>
         </table>

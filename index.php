@@ -1,5 +1,8 @@
 <html>
 <head>
+    <title>My First HTML</title>
+    <meta charset="UTF-8">
+
     <style>
         .error { color: #FF0000;}
     </style>
