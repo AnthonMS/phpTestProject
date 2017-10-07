@@ -35,6 +35,12 @@ else {
         case "showNote":
             include ("includes/showNote.php");
             break;
+        case "notes2":
+            include ("includes/notes2.php");
+            break;
+        case "user":
+            include ("includes/home.php");
+            break;
         case "about":
             include("includes/about.php");
             break;
