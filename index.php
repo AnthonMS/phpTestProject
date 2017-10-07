@@ -65,7 +65,9 @@
                 // Username and password match
                 session_start();
                 $_SESSION['username'] = $name;
+                $_SESSION['userID'] = $rowArray['uid'];
                 $loginErr = "Logged in successfully!" . "<br>" . "Welcome " . $_SESSION['username'];
+                header("Location: main.php");
             } // closing inner if statement
             else {
                 $loginErr = "Login error: Incorrect Username or Password!";
